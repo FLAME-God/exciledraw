@@ -2,10 +2,12 @@
   "name": "@repo/ui",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./code": "./src/code.tsx",
+    "./input":"./src/Input.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -22,6 +24,7 @@
     "typescript": "5.7.3"
   },
   "dependencies": {
+    "lucide-react": "^0.474.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   }
